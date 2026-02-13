@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+  color: var(--ink);
+  background:
+    radial-gradient(1200px 600px at 10% -10%, rgba(24, 182, 120, 0.18), transparent 60%),
+    radial-gradient(900px 500px at 110% 10%, rgba(14, 56, 83, 0.18), transparent 55%),
+    linear-gradient(135deg, #f7fbff 0%, #f1f6fb 40%, #eef5f3 100%);
+}
+
+h1 {
+  margin: 0 0 12px;
+  font-size: clamp(1.6rem, 2.2vw, 2.2rem);
+  color: var(--brand-navy);
+}

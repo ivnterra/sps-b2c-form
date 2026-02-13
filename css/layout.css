@@ -1,0 +1,37 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 20px 32px;
+  gap: 28px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: min(980px, 100%);
+}
+
+.card {
+  width: min(980px, 100%);
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  display: grid;
+  grid-template-columns: 1.1fr 0.7fr;
+  overflow: hidden;
+}
+
+.form-wrap {
+  padding: 40px 40px 36px;
+}
+
+.accent {
+  background: linear-gradient(165deg, var(--brand-navy) 0%, #0b2d42 45%, #0f3b57 100%);
+  color: #eaf4fb;
+  padding: 40px 32px;
+  display: grid;
+  gap: 20px;
+}

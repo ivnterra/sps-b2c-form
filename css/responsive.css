@@ -1,0 +1,24 @@
+@media (max-width: 900px) {
+  .card {
+    grid-template-columns: 1fr;
+  }
+
+  .accent {
+    order: -1;
+  }
+}
+
+@media (max-width: 640px) {
+  .form-wrap {
+    padding: 32px 24px;
+  }
+
+  .accent {
+    padding: 28px 24px;
+  }
+
+  .brand {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

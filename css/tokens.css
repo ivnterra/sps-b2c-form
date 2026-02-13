@@ -1,0 +1,10 @@
+:root {
+  --brand-navy: #0e3853;
+  --brand-green: #18b678;
+  --brand-mint: #e6f7f1;
+  --ink: #102434;
+  --muted: #5c6c7a;
+  --card: #ffffff;
+  --shadow: 0 24px 60px rgba(16, 36, 52, 0.12);
+  --radius: 20px;
+}
